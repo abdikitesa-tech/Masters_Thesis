@@ -13,11 +13,14 @@
                                 * what similarities do linux's approach & COTS avionics offerings have in common?
                                 * what differences do linux's approach & COTS avionics have between them?
                             formation of research hypothesis
+                                * a recurring statement that has been coming is the importance of Data Coupling and Control Coupling in avionics Software.[10]
+                                * what is the system requirement and what are the types of system requirements
+                                    - a coupling experiment performed on Software coupling and software performance states that "relative performace of systems implemented using different software coupling is platform dependent.(i.e Windows Vs Linux Vs Mac)
                                 * Is Linux reliable interms of CyberSecurity? 
                                     - Linux is considered to be more secure than other operating systems, such as windows, becuase it is less susceptable to viruses and other forms of malware. this makes it an attractive option for cybersecurity experts who need to protect sensitive information and networks from cyber threats.[1] 
                                 * what are the challenges involved in running Linux in Safety-critical systems and building products based on Linux?
                                     - The primary challenge is selecting Linux components and features that can be evaluated for safety and identifying gaps where more work is needed to evaluate safety sufficiently[4]
-                                * what are Basic Operating System Concepts?
+                                * what are Basic Operating System Concepts of Linux?
                                     - the most important program in the set is called the kernel. It is loaded into RAM when the system boots and contains many critical procedures that are needed for the system to operate.[6]
                                     - To ensure safe protection mechanisms, operating systems must use the hardware protection associated with the CPU privileged mode. Otherwise, a user program would be able to directly access the system circuitry and overcome the imposed bounds. Unix is a multiuser system that enforces the hardware protection of system resources.[7]
                                     - Kernel Architecture
@@ -69,3 +72,4 @@
                                 [7] Daniel P. Bovet, Marco Cesati Ph.D. - Understanding the Linux Kernel, Third Edition-O'Reilly Media (2005) p.9 (27 of 944)
                                 [8] Daniel P. Bovet, Marco Cesati Ph.D. - Understanding the Linux Kernel, Third Edition-O'Reilly Media (2005) p.11 (29 of 944)
                                 [9] Leanna Rierson - Developing Safety-Critical Software_ A Practical Guide for Aviation Software and DO-178C Compliance-CRC Press (2013) p.32 of 728
+                                [10] https://www.rapitasystems.com/files/MC-WP-011%20DO-178C%20Verification_5 p.17 (20 of 70)
