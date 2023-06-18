@@ -71,6 +71,7 @@
                                                  |automobile                    |
                                                  |* Device driver for a control-|
                                                  |ler area network databus      |
+                                * What is real-time Linux [12, 13, 14]                 
                                 * why is COTS Software important in Avionics?
                                     - COTS’ appeal is strong. Although the price can run into millions of dollars for a complex project, proponents say COTS cuts development costs and time to market, focusing engineering talent on applications development. Quality is maintained, they say, because the certification material is consistent for customers building different applications.
 
@@ -105,3 +106,6 @@
                                 [9] Leanna Rierson - Developing Safety-Critical Software_ A Practical Guide for Aviation Software and DO-178C Compliance-CRC Press (2013) p.32 of 728
                                 [10] https://www.rapitasystems.com/files/MC-WP-011%20DO-178C%20Verification_5 p.17 (20 of 70)
                                 [11] Leanna Rierson - Developing Safety-Critical Software_ A Practical Guide for Aviation Software and DO-178C Compliance-CRC Press (2013) p.609 of 728
+                                [12] https://ubuntu.com/blog/what-is-real-time-linux-i
+                                [13] https://ubuntu.com/blog/what-is-real-time-linux-ii
+                                [14] https://ubuntu.com/blog/what-is-real-time-linux-part-iii
