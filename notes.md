@@ -39,7 +39,38 @@
 
                                 * what is a COTS Avionics Software?
                                     - formal term for commercial items, including services, available in the commercial marketplace that can be bought and used under government contract.[2] For example, Microsoft is a COTS software provider. Goods and construction materials may qualify as COTS but bulk cargo does not. Services associated with the commercial items may also qualify as COTS, including installation services, training services, and cloud services.[3]
-
+                                    - COTS software is a speical kind of Previously Developed Software(PDS). Examples of COTS software are in table 24.1. DO-278A section 12.4 provides some specific guideance for acquiring and integrating COTS into a safety-critical system. DO-178C does not provide equivalent guidance, but the DO-278A approach can be applied to a DO-178C project. DO-278A promotes the concept of a COTS software integrity assurance case that is developed to ensure that the COTS software provides the same level of confidence as software developed to DO-278A or DO-178C. The integrity assurance case for DO-178C compliance include the following information[14]
+                                        - claims about the integrity of the COTS software and which DO-178C objectives are not met by the case.
+                                        - Environment where the COTS software will be used
+                                        - Requirements that the COTS software satisfies
+                                        - Identification, assessment, and mitigation of unneeded capabilities in the COTS Software.
+                                        - Explanation of DO-178C objectives that are satisfied with the existing COTS software data.
+                                        - Identification of DO-178C objectives not satisfied and explanation of how an equivalent level of confidence will be achieved using alternative approaches
+                                        - Explanation of strategies to be taken.
+                                        ----------------------------------------------------------------
+                                                    Non-COTS software           |       COTS
+                                        ________________________________________________________________  
+                                        DO-178[] |  * An avionics application   | * A real-time operating system (RTOS) with DO-178B or DO-178C data available
+                                                 |  * DO-178B-compliant flight  |
+                                                 |  control software to be modi-|
+                                                 |  fied for use in a similar   |
+                                                 |  system.                     |
+                                                 |  * DO-178C-compliant battery | * A DO-178C- complaint board support package for a specific RTOS and
+                                                 |management software to be ins-| microprocesor
+                                                 |talled in a new aircraft.     |
+                                       ----------------------------------------------------------------
+                                       Non-      |* An electrical power system  | * An operating system without DO-178[] data  (e.g, windows).
+                                       DO-178[]  |developed using U.S.Department|
+                                                 |of Defense Military Standard  | * A comiler-supplied library 
+                                                 |498                           | * Databus Software used in automotive market
+                                                 |* Flight management system so-|
+                                                 |ftware for military aircraft  | * Communication Stack comppliant with Open Systems International communication 
+                                                 |developed using the United kin| protocol
+                                                 |gdom's defense standard 00-55 |
+                                                 |* Brake system software for an|
+                                                 |automobile                    |
+                                                 |* Device driver for a control-|
+                                                 |ler area network databus      |
                                 * why is COTS Software important in Avionics?
                                     - COTS’ appeal is strong. Although the price can run into millions of dollars for a complex project, proponents say COTS cuts development costs and time to market, focusing engineering talent on applications development. Quality is maintained, they say, because the certification material is consistent for customers building different applications.
 
@@ -73,3 +104,4 @@
                                 [8] Daniel P. Bovet, Marco Cesati Ph.D. - Understanding the Linux Kernel, Third Edition-O'Reilly Media (2005) p.11 (29 of 944)
                                 [9] Leanna Rierson - Developing Safety-Critical Software_ A Practical Guide for Aviation Software and DO-178C Compliance-CRC Press (2013) p.32 of 728
                                 [10] https://www.rapitasystems.com/files/MC-WP-011%20DO-178C%20Verification_5 p.17 (20 of 70)
+                                [11] Leanna Rierson - Developing Safety-Critical Software_ A Practical Guide for Aviation Software and DO-178C Compliance-CRC Press (2013) p.609 of 728
